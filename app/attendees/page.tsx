@@ -5,6 +5,8 @@ import Image from 'next/image'
 export default function Attendees() {
   const ambassadors = [
     { handle: 'Andreas', url: 'https://x.com/andreassosilo' },
+    { handle: 'Beatrice', url: 'https://x.com/BeatriceAnihiri' },
+    { handle: 'Robert', url: 'https://x.com/COSDpool' },
     { handle: 'Chris', url: 'https://x.com/Straightpool4' },
     { handle: 'Christian', url: 'https://x.com/CrisRo0787' },
     { handle: 'Daniel', url: 'https://x.com/ddlezu' },

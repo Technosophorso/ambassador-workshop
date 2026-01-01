@@ -60,10 +60,10 @@ export default function Agenda() {
           <span className="time-badge text-sm px-3 py-1 rounded-full">10:30 - 12:30</span>
           <span className="text-sm text-gray-600">Workshop</span>
         </div>
-        <h3 className="text-xl font-semibold text-black mb-2">Session #1 | DRep incentives</h3>
-        <p className="text-gray-700 mb-3">DReps play an essential role in Cardano and it's success, we will dive into if, why and how DReps should be incentivized in Cardanos Governance model.</p>
+        <h3 className="text-xl font-semibold text-black mb-2">Session #1 | Ambassadors Introduction </h3>
+        <p className="text-gray-700 mb-3">Ambassadors presenting their Cardano Journey, their projects, their ideas and dreams.</p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: Simon</p>
+          <p>Speaker: Everyone</p>
         </div>
       </div>
 
@@ -72,10 +72,10 @@ export default function Agenda() {
           <span className="time-badge text-sm px-3 py-1 rounded-full">13:00 - 14:00</span>
           <span className="text-sm text-gray-600">Workshop</span>
         </div>
-        <h3 className="text-xl font-semibold text-black mb-2">Session #2 | CIPs and the Cardano Community</h3>
-        <p className="text-gray-700 mb-3">The CIP process, which generates Cardano's standards, is the result of community engagement: much more so than is generally known. Join the longest serving CIP editor to learn about the human factors & history of CIPs, with insights you can bring back to your own communities and projects.</p>
+        <h3 className="text-xl font-semibold text-black mb-2">Session #2 | DRep incentives</h3>
+        <p className="text-gray-700 mb-3">DReps play an essential role in Cardano and it's success, we will dive into if, why and how DReps should be incentivized in Cardanos Governance model</p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: Robert Phair</p>
+          <p>Speaker: Simon</p>
         </div>
       </div>
 

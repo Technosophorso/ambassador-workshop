@@ -27,30 +27,10 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Development
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-
-## Deployment
-
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically with each push
-
-### Manual Build
-```bash
-npm run build
-```
-
 
 ## Contributing
 
 This is an open-source project. Feel free to contribute by adding content, features, or improvements.
 
 ## License
-
-MIT License
+Apache 2.0
