@@ -30,7 +30,7 @@ export default function Header() {
             <Link href="/gallery" className="berlin-mono text-black hover:bg-black hover:text-white transition-all duration-200 px-3 py-2 border-2 border-transparent hover:border-black">
               GALLERY
             </Link>
-            <Link href="/reports-outcomes" className="berlin-mono text-black hover:bg-black hover:text-white transition-all duration-200 px-3 py-2 border-2 border-transparent hover:border-black">
+            <Link href="/reports" className="berlin-mono text-black hover:bg-black hover:text-white transition-all duration-200 px-3 py-2 border-2 border-transparent hover:border-black">
               REPORTS
             </Link>
             
