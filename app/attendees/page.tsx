@@ -5,21 +5,16 @@ import Image from 'next/image'
 export default function Attendees() {
   const ambassadors = [
     { handle: 'Andreas', url: 'https://x.com/andreassosilo' },
-    { handle: 'Beatrice', url: 'https://x.com/BeatriceAnihiri' },
-    { handle: 'Robert', url: 'https://x.com/COSDpool' },
     { handle: 'Chris', url: 'https://x.com/Straightpool4' },
     { handle: 'Christian', url: 'https://x.com/CrisRo0787' },
-    { handle: 'Darlington', url: 'https://x.com/profd2004' },
     { handle: 'Daniel', url: 'https://x.com/ddlezu' },
     { handle: 'Felix', url: 'https://x.com/meshsdk' },
     { handle: 'Hinson', url: 'https://x.com/HinsonSIDAN' },
     { handle: 'Jenny', url: 'https://x.com/Jennycitalinda' },
-    { handle: 'Kinson', url: 'https://x.com/KinsonGOV' },
     { handle: 'Loyd', url: 'https://x.com/radioastro' },
     { handle: 'Mike', url: 'https://x.com/Hornan7' },
     { handle: 'Simon', url: 'https://x.com/Seomon4u' },
     { handle: 'Stephanie', url: 'https://x.com/Lido_Phuffy' },
-    { handle: 'Thomas', url: 'https://x.com/ThomasNordicADA' },
   ]
 
   const cardanoFoundation: { handle: string; url: string }[] = [
