@@ -7,6 +7,7 @@ const tabs = [
   { label: 'Workshop Report', href: '/reports/workshop-report' },
   { label: 'Playbook', href: '/reports/playbook' },
   { label: 'Proposal', href: '/reports/proposal' },
+  { label: 'Testimonials', href: '/reports/testimonials' },
 ]
 
 export default function Reports() {
@@ -34,103 +35,60 @@ export default function Reports() {
             })}
           </div>
 
-          <h1 className="text-4xl font-bold text-black mb-8">Reports & Outcomes</h1>
-          
-          <div className="glass-card p-8 mb-12">
-            <p className="text-gray-700 text-lg leading-relaxed">
-              Here we will provide reports and metrics from the event.
-            </p>
+          <h1 className="text-4xl font-bold text-black mb-10">Reports</h1>
+
+          <div className="grid gap-6 md:grid-cols-3">
+            <div className="berlin-card p-6 flex flex-col justify-between">
+              <div className="space-y-3">
+                <h3 className="berlin-heading text-2xl text-black">Workshop Report</h3>
+                <p className="berlin-body text-gray-700">
+                  Full write-up of the Ambassador Workshop with setup, rollout, reflections, and next steps.
+                </p>
+              </div>
+              <div className="mt-4">
+                <Link
+                  href="/reports/workshop-report"
+                  className="berlin-button-primary block text-center"
+                >
+                  Open Report
+                </Link>
+              </div>
+            </div>
+
+            <div className="berlin-card p-6 flex flex-col justify-between">
+              <div className="space-y-3">
+                <h3 className="berlin-heading text-2xl text-black">Playbook</h3>
+                <p className="berlin-body text-gray-700">
+                  Step-by-step guide, checklists, and templates to run future Ambassador Workshops.
+                </p>
+              </div>
+              <div className="mt-4">
+                <Link
+                  href="/reports/playbook"
+                  className="berlin-button-primary block text-center"
+                >
+                  Open Playbook
+                </Link>
+              </div>
+            </div>
+
+            <div className="berlin-card p-6 flex flex-col justify-between">
+              <div className="space-y-3">
+                <h3 className="berlin-heading text-2xl text-black">Proposal</h3>
+                <p className="berlin-body text-gray-700">
+                  Catalyst proposal, milestone reports, and close-out deliverables.
+                </p>
+              </div>
+              <div className="mt-4">
+                <Link
+                  href="/reports/proposal"
+                  className="berlin-button-primary block text-center"
+                >
+                  Open Proposal
+                </Link>
+              </div>
+            </div>
           </div>
-
-          <section className="mb-16">
-            <h2 className="text-3xl font-semibold text-black mb-8">Event Report</h2>
-            <div className="glass-card p-8">
-              <div className="mb-6">
-                <h3 className="text-xl font-semibold text-black mb-4">Workshop Overview</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Here we will place few metrics of the event
-                </p>
-              </div>
-              
-              <div className="grid md:grid-cols-2 gap-6 mb-6">
-                <div className="border-l-4 border-dark-red pl-4">
-                  <h4 className="font-semibold text-black mb-2">Key Metrics</h4>
-                  <p className="text-gray-700 text-sm">Participation rates, engagement levels, and success indicators</p>
-                </div>
-                <div className="border-l-4 border-dark-red pl-4">
-                  <h4 className="font-semibold text-black mb-2">Outcomes</h4>
-                  <p className="text-gray-700 text-sm">Achieved objectives and measurable results from the workshop</p>
-                </div>
-                <div className="border-l-4 border-dark-red pl-4">
-                  <h4 className="font-semibold text-black mb-2">Feedback</h4>
-                  <p className="text-gray-700 text-sm">Participant insights and recommendations for future events</p>
-                </div>
-              </div>
-              
-              <div className="pt-4 border-t border-gray-200">
-                <p className="text-gray-600 text-sm">
-                  📄 <strong>Status:</strong> Report will be published following event completion and data analysis.
-                </p>
-              </div>
-            </div>
-          </section>
-
-          <section>
-            <h2 className="text-3xl font-semibold text-black mb-8">Playbook</h2>
-            <div className="glass-card p-8">
-              <div className="mb-6">
-                <h3 className="text-xl font-semibold text-black mb-4">Ambassador Workshop Playbook</h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  Here we will place the playbook which we will generate during the execution of the event
-               </p>
-              </div>
-              
-              <div className="space-y-4 mb-6">
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-dark-red rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white text-xs font-bold">1</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-black mb-1">Planning & Preparation</h4>
-                    <p className="text-gray-700 text-sm">Step-by-step guide for event planning, venue selection, and logistics coordination</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-dark-red rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white text-xs font-bold">2</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-black mb-1">Content Development</h4>
-                    <p className="text-gray-700 text-sm">Workshop materials, session structures, and educational content frameworks</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-dark-red rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white text-xs font-bold">3</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-black mb-1">Ambassador Engagement</h4>
-                    <p className="text-gray-700 text-sm">Best practicezs to engage Ambassadors at the event</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-6 h-6 bg-dark-red rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white text-xs font-bold">4</span>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-black mb-1">Reports & Metrics</h4>
-                    <p className="text-gray-700 text-sm">Assessment & reporting methods, feedback and metrics</p>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="pt-4 border-t border-gray-200">
-                <p className="text-gray-600 text-sm">
-                  📚 <strong>Status:</strong> Playbook will be developed and published as a project deliverable upon completion.
-                </p>
-              </div>
-            </div>
-          </section>
         </div>
       </main>
       <Footer />

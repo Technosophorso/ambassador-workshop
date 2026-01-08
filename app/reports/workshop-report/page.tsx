@@ -7,6 +7,7 @@ const tabs = [
   { label: 'Workshop Report', href: '/reports/workshop-report' },
   { label: 'Playbook', href: '/reports/playbook' },
   { label: 'Proposal', href: '/reports/proposal' },
+  { label: 'Testimonials', href: '/reports/testimonials' },
 ]
 
 export default function WorkshopReport() {

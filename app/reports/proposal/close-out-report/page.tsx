@@ -7,6 +7,7 @@ const tabs = [
   { label: 'Workshop Report', href: '/reports/workshop-report' },
   { label: 'Playbook', href: '/reports/playbook' },
   { label: 'Proposal', href: '/reports/proposal' },
+  { label: 'Testimonials', href: '/reports/testimonials' },
 ]
 
 const proposalTabs = [
@@ -300,9 +301,29 @@ export default function CloseOut() {
                 </tbody>
               </table>
             </div>
-            <div>
-              <p className="text-gray-700 leading-relaxed font-semibold">Link to Close-out video - must be either YouTube or Vimeo link only</p>
+          </div>
+
+          <div className="glass-card p-8 space-y-4">
+            <h2 className="text-2xl font-semibold text-black">Close-out Video</h2>
+            <div className="aspect-video">
+              <iframe
+                src="https://player.vimeo.com/video/1152467726"
+                className="w-full h-full rounded-lg"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                title="Close-out Video"
+              />
             </div>
+            <p className="text-gray-700 text-sm">
+              <a
+                href="https://vimeo.com/1152467726?share=copy&fl=sv&fe=ci#t=0"
+                className="text-dark-red underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Watch on Vimeo
+              </a>
+            </p>
           </div>
         </div>
       </main>

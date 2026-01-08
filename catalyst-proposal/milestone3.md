@@ -36,13 +36,20 @@ The Final close-out report has been completed and is publicly accessible at:
 - Github: https://github.com/Technosophorso/ambassador-workshop/blob/main/catalyst-proposal/close-out.md 
 - Website: https://ambassador-workshop.netlify.app/reports/proposal/close-out-report/
 
+Testimonials to be found at:
+https://ambassador-workshop.netlify.app/reports/testimonials
+
 ---
 
 ## 3) Final closeout video
 The Final closeout video has been completed and is publicly accessible at:
-- Github: 
-- Website: 
+
+- VIMEO: https://vimeo.com/1152467726?share=copy&fl=sv&fe=ci#t=0
 
 ---
+
+
+And thats it.
+We hope all provided info and details satisfy the acceptance of this Milestone & proposal close out.
 
 

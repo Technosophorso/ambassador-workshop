@@ -10,6 +10,7 @@ const tabs = [
   { label: 'Workshop Report', href: '/reports/workshop-report' },
   { label: 'Playbook', href: '/reports/playbook' },
   { label: 'Proposal', href: '/reports/proposal' },
+  { label: 'Testimonials', href: '/reports/testimonials' },
 ]
 
 function Checklist({ items }: { items: Array<string | JSX.Element> }) {
