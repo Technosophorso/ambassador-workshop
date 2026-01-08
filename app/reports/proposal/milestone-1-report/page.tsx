@@ -77,7 +77,7 @@ export default function Milestone1() {
               </div>
               <div>
                 <dt className="font-semibold text-black">Milestone Budget</dt>
-                <dd>ADA 33,000 Ada</dd>
+                <dd>ADA 11,955.00</dd>
               </div>
               <div>
                 <dt className="font-semibold text-black">Delivered</dt>
