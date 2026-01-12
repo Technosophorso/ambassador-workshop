@@ -29,6 +29,9 @@ The workshop highlight & insights report has been completed and is publicly acce
 - Github: https://github.com/Technosophorso/ambassador-workshop/blob/main/catalyst-proposal/workshop-report.md
 - Website: https://ambassador-workshop.netlify.app/reports
 
+The respective post on the Cardano Forum is accessible at:
+- https://forum.cardano.org/t/cardano-ambassador-workshop-europe/152468
+
 ---
 
 ## 2) Final close-out report
